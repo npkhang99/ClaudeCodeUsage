@@ -22,6 +22,10 @@ Thanks to @Power-tile for the idea of the pace marker (#26).
   the dropdown was closed sized them from the track's default 300px instead of
   its real width, and opening the dropdown did not correct them. Most visible
   with "Show usage left", where a 100% bar stopped about 20px short (#32).
+- The plan pill in the dropdown ("TEAM", "MAX 5x") was nearly invisible with
+  the light shell style: its text was a fixed light peach. It now takes the
+  dropdown's text color, so it reads in light and dark mode. Its color can
+  still be set under "Popup UI" (#32).
 
 ## 1.5.1 - 2026-10-14
 

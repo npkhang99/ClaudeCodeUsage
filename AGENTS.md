@@ -174,7 +174,7 @@ the LICENSE, `build.sh`, `tools/`) is repo tooling that stays out of the bundle.
   same way, within one tab. An unchanged follower writes nothing, so the
   value it follows must have the same state targets (a test checks it). A
   `def: null` without `inherits` means "the panel's own" (or, on the popup tab, "the popup's own") and is for the
-  percentage's color and font size and the pace marker's color only. A group may also list `settings`, plain string
+  percentage's color and font size, the pace marker's color and the subscription pill's text color only. A group may also list `settings`, plain string
   GSettings keys (`panel-lead-divider`, `panel-divider`) that the page
   edits, resets and counts too (`textSettingChanged`). "Reset all" is per
   tab: `changedCount(settings, page)` and `resetPage(settings, page)`.
